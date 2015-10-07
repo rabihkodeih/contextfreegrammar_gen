@@ -55,3 +55,9 @@ Which when run gives something like:
 
 There are 8 grammars in the ./grammars directory to poke arround with.
 
+##Installation
+Clone repository.
+
+##Dependencies
+None
+

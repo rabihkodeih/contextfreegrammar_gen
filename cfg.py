@@ -155,6 +155,7 @@ def cleanup(sentence):
     for p in ('.', '!' ,'?', ',', '-'):
         s = s.replace(' ' + p, p)
     s = s.replace('\\n', '\n')
+    if not s.endswith('.'): s += '.'
     return s[0].upper() + s[1:]
      
 
